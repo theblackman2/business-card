@@ -1,0 +1,93 @@
+.body{
+  height: 55%;
+  width: 100%;
+  background-color: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  color: #F1F1F1;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 5px 15px;
+  width: fit-content;
+  border-radius: 6px;
+  border: 1px solid;
+  font-size: 12px;
+  font-weight: 500;
+  transition: 300ms;
+}
+
+.body-header{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.name{
+  font-size: 18px;
+}
+
+.title{
+  font-size: 12px;
+  font-weight: normal;
+  color: #F3BF99;
+  margin-bottom: 3px;
+}
+
+.site{
+  font-size: 12px;
+  margin-bottom: 5px;
+  transition: 300ms;
+}
+
+.site:hover{
+  color: #5093E2;
+}
+
+.direct-messages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  margin-bottom: 10px;
+}
+
+.email{
+  color: #374151;
+  background-color: white;
+  border-color: white;
+}
+
+.email:hover{
+  background-color: #374151;
+  color: white;
+  border-color: #374151;
+}
+
+.linked-in{
+  background-color: #5093E2;
+  border-color: #5093E2;
+}
+
+.linked-in:hover{
+  color: #5093E2;
+  background-color: #374151;
+  border-color: #374151;
+}
+
+.content-title{
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.content-text{
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 6px;
+}
